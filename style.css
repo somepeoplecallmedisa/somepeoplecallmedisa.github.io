@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* html {
+    height: 100%;
+} */
+
+body {
+    background-color: black;
+    color: #bfabde;
+    /* min-height: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto; */
+}
+
+nav {
+    margin: 1rem 0;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #4d3d69;
+}
+
+a {
+    text-decoration: none;
+}
+.nav-link {
+    font-size: 2rem;
+    color: #9784b5;
+}
+.nav-logo {
+    margin: 0 3rem;
+    font-size: 3rem;
+    color: #bfabde;
+    font-weight: bold;
+}
+.bio {
+    margin: 2rem 1rem;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.genocide-hours {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.album-description {
+    margin-left: 1rem;
+    text-align: right;
+    font-size: larger;
+}
+b {
+    color: #cd7dc6;
+    font-size: 1.1rem;
+}
+.album-cover {
+    width: 50%;
+    margin: 0 1rem;
+}
+/* footer {
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    text-align: center;
+    margin-top: 5rem;
+    padding: 1rem 0;
+    border-top: 1px solid #4d3d69;
+} */
+
+@media screen and (min-width: 960px) {
+    .album-cover {
+        width: 480px;
+    }
+  }
